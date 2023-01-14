@@ -10,7 +10,6 @@ and Y=0 for no) for either an under $20 value or a $20-$50 value for different r
 given various scenarios (varying the time, destination, weather and passengers in the car).
 
 Link to Jupyter Notebook: 
-Link to Visualizations: 
 
 Data Cleanup Summary:
 -- The coupons.csv file has 12684 rows of survey data
