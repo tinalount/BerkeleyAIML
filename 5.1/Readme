@@ -1,12 +1,30 @@
 # BerkeleyAIML
 
 
-This is the 5.1 assignment for Berkeley's AI/ML class.  It is reading in a "coupons.csv" data
-file from the UCI Machine Learning repository that was collected by a survey on Amazon
-Mechanical Turk.
+This is the 5.1 assignment for Berkeley's AI/ML class.  
 
-The survey data asked customers whether they would utilize a restaurant coupon (Y=1 for yes
-and Y=0 for no) for either an under $20 value or a $20-$50 value given various scenarios
-(varying the time, destination, weather and passengers in the car).
+Data Overview: 
+The data used for this project is a "coupons.csv" data file from the UCI Machine Learning repository that was collected by a survey on Amazon
+Mechanical Turk.The survey data asked customers whether they would utilize a restaurant coupon (Y=1 for yes
+and Y=0 for no) for either an under $20 value or a $20-$50 value for different restaurant types,
+given various scenarios (varying the time, destination, weather and passengers in the car).
 
-Data Analysis Conclusions:
+Link to Jupyter Notebook: 
+Link to Visualizations: 
+
+Data Cleanup Summary:
+-- The coupons.csv file has 12684 rows of survey data
+-- The 'car' column was removed for analysis purposes due to a large number of nulls and remaining nulls from the survey data were replaced with "No Answer"
+
+Data Analysis Summary: 
+-- Percentage of customers accepting the coupon: 56.84%
+-- Percentage of customers rejecting the coupon: 43.16%
+-- Analysis was done on understanding the rate of redemption of coupons based on coupon type:
+-----  Interestingly, coupons were more likely to be redeemed for restaurants under $20 in value or for 'carryout/take away' food. They were equally likely to be redeemed as not redeemed for coffee houses and less likely to be redeemed at Bars or Restaurants for over 20 dollars.
+-----  The most coupons were given for Coffee Houses but based on this finding it is recommended to offer more coupons for restaurants under 20 and carry out instead of for coffee houses that had a much lower redemption percentage
+-- Analysis was done on understanding how temperature affected coupon redemption: 
+-----  A much higher percentage of coupons were redeemed in hotter temperatures (80F) as opposed to 55F or 30F
+-----  The most coupons were offered in higher temperatures so this is in line with the higher redemption percentage and should continue to be offered in higher temperatures
+-- Focused analysis was done on understanding the bar coupon redemption:
+-----  Of the bar coupons offered, only 41% were accepted/redeemed (this is lower than the average of 56.84% overall of coupons being accepted)
+-----  It is not really surprising that the data analysis shows that those who frequent a bar more than 3 times a month have a significantly higher bar coupon redemption percentage than those who don't go that often (76.88% compared to 37.06% coupon redemption)
