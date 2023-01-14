@@ -1,22 +1,22 @@
 # BerkeleyAIML
 
 
-This is the 5.1 assignment for Berkeley's AI/ML class.  
+##This is the 5.1 assignment for Berkeley's AI/ML class.  
 
-## Data Overview: 
+Link to Jupyter Notebook: https://github.com/tinalount/BerkeleyAIML/blob/b23d30eabee41029591fa7a8606d61c0d956ef7c/5.1/5_1AssignmentTL.ipynb 
+
+### Data Overview: 
 The data used for this project is a "coupons.csv" data file from the UCI Machine Learning repository that was collected by a survey on Amazon
 Mechanical Turk.The survey data asked customers whether they would utilize a restaurant coupon (Y=1 for yes
 and Y=0 for no) for either an under $20 value or a $20-$50 value for different restaurant types,
 given various scenarios (varying the time, destination, weather and passengers in the car). 
-Note: The source data file is included in this repository under the /5.1/data folder.
+Note: The source data file is included in this repository under the /5.1/data folder here: https://github.com/tinalount/BerkeleyAIML/blob/6db90ab33a6b0757b42952971fd6184f26397e94/5.1/data/coupons.csv.
 
-Link to Jupyter Notebook: https://github.com/tinalount/BerkeleyAIML/blob/b23d30eabee41029591fa7a8606d61c0d956ef7c/5.1/5_1AssignmentTL.ipynb 
-
-## Data Cleanup Summary:
+### Data Cleanup Summary:
 -- The coupons.csv file has 12684 rows of survey data
 -- The 'car' column was removed for analysis purposes due to a large number of nulls and remaining nulls from the survey data were replaced with "No Answer"
 
-## Data Analysis Summary: 
+### Data Analysis Summary: 
 -- Percentage of customers accepting the coupon: 56.84%
 -- Percentage of customers rejecting the coupon: 43.16%
 
