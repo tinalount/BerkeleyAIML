@@ -9,7 +9,7 @@ Mechanical Turk.The survey data asked customers whether they would utilize a res
 and Y=0 for no) for either an under $20 value or a $20-$50 value for different restaurant types,
 given various scenarios (varying the time, destination, weather and passengers in the car).
 
-Link to Jupyter Notebook: 5.1/5_1AssignmentTL.ipynb 
+Link to Jupyter Notebook: https://github.com/tinalount/BerkeleyAIML/blob/b23d30eabee41029591fa7a8606d61c0d956ef7c/5.1/5_1AssignmentTL.ipynb 
 
 Data Cleanup Summary:
 -- The coupons.csv file has 12684 rows of survey data
