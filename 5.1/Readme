@@ -18,12 +18,30 @@ Data Cleanup Summary:
 Data Analysis Summary: 
 -- Percentage of customers accepting the coupon: 56.84%
 -- Percentage of customers rejecting the coupon: 43.16%
+
 -- Analysis was done on understanding the rate of redemption of coupons based on coupon type:
 -----  Interestingly, coupons were more likely to be redeemed for restaurants under $20 in value or for 'carryout/take away' food. They were equally likely to be redeemed as not redeemed for coffee houses and less likely to be redeemed at Bars or Restaurants for over 20 dollars.
 -----  The most coupons were given for Coffee Houses but based on this finding it is recommended to offer more coupons for restaurants under 20 and carry out instead of for coffee houses that had a much lower redemption percentage
+
 -- Analysis was done on understanding how temperature affected coupon redemption: 
 -----  A much higher percentage of coupons were redeemed in hotter temperatures (80F) as opposed to 55F or 30F
 -----  The most coupons were offered in higher temperatures so this is in line with the higher redemption percentage and should continue to be offered in higher temperatures
+
 -- Focused analysis was done on understanding the bar coupon redemption:
 -----  Of the bar coupons offered, only 41% were accepted/redeemed (this is lower than the average of 56.84% overall of coupons being accepted)
 -----  It is not really surprising that the data analysis shows that those who frequent a bar more than 3 times a month have a significantly higher bar coupon redemption percentage than those who don't go that often (76.88% compared to 37.06% coupon redemption)
+-----  The 71.32% of redeemed bar coupons for those that frequent a bar more than once/month, aren't driving with a kid and don't work in 'Farming FIshing & Forestry' is very similar to the 69.52% of redeemed bar couopns for those that frequent a bar more than once/month and are over 25  - perhaps these two condition scenarios are  defining overlapping data groups? This would require further investigation.
+-----  Drivers that frequent cheap restaurants over 4times/month and have a low income under 50K only accept the bar coupon 45.35% of the time whereas drivers that frequent a bar more than once/month and are under 30yo have an acceptance rate of 72.17% and drivers that frequent a bar more than once/month and are not driving a kid and are not widowed also have a higher acceptance rate of 71.32%. 
+-----  looking at the bar coupon acceptance rates for all these discussed scenarios, the targeted drivers that would redeem bar coupons obviously need to be people who like to go to bars every month..  It seems like the  are the two strongest independent variable for predicting whether the driver will accept the coupon or not is how often the driver goes to bars. The other factors like income, age, and being widowed don't seem to impact the acceptance rates as much and visiting cheap restaurants a lot doesn't really predict whether the driver will accept the bar coupon.
+
+-- Further analysis was done to understand which coupon types would have the highest acceptance rate for the Student sub-population 
+----- This was done by analyzing the 1584 Student subset rows of the available survey data
+----- 967 students accepted the coupons (61.05%) while 617 (38.95%) rejected them
+----- Coffee House Coupons appear to have done the best the Student population with 312 coupons redeemed, while cheap restaurant coupons had 246 coupons redeemed and Carry Out and Take Away had 212 coupons redeemed.  The other coupon types had less redeemed than rejected.  However, this is deceiving because they are not presented as percentages of coupons offered that were redeemed.
+----- Looking at the data as Percentage Accepted, the clear best performing Coupon Types for Student population were the Restaurants under 20 dollars (71.3%), the Carry Out & Take Away (67.7% accepted), and then Coffee houses (62.5% accepted).  Then it drops significantly to only 47.8% bar coupons accepted by Students and 43.75% more expensive restaurants 20-50 dollars accepted by Students. 
+----- The recommendation for this year's "College Coupon Campaign" would be to focus on offering the students on college campuses only the coupons for the top 3 performing restaurant types (under 20, carry out/take away and coffee houses)
+
+
+
+
+
