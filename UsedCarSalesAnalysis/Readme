@@ -1,1 +1,49 @@
+# BerkeleyAIML
 
+
+##This is the Unit 11 practical assignment for Berkeley's AI/ML class.  
+
+Link to Jupyter Notebook: <LINK>
+
+### Data Overview: 
+The data used for this project is a "vehicles.csv" data file, with 426,880 rows and 18 columns provided of used car sales data
+
+Link to data source: 
+
+
+### Data Cleanup & Transformation Summary:
+-- The original file has an extraordinary ampount of null values so a lot of work was done assessing which columns and rows to drop based on the lack of full data
+-- The dataset was reduced down FROM 426,880 rows and 18 columns TO 124836 entries and 66 columns (only 1/4 of the data was kept for this quick first analysis)
+-- Color, Manufacturer, Fuel and Type were onehotencoded 
+-- Transmission was encoded into a boolean
+
+### Data Transformation Details: 
+Columns kept but transformed or encoded
+----- PRICE: 32,895 rows with $0 'price' values were dropped from dataset
+----- ODOMETER: 32,895 rows with $0 'odometer' values were dropped from dataset not knowing if this was trustworthy reading
+----- COLOR:  Most of the used cars in the dataset were white, followed black,then silver, blue, red, and grey - this columnn was one-hot-encoded
+----- YEAR--> AGE: The Year Column was converted into an Age column as an integer age with the most used car sales being for Ages 5-10 (this corresponds with a quick internet search that said 
+ "Overall, researchers find that the average age of used cars people are seeking is 6.47 years old."
+----- MANUFACTURER: this column was one-hot-encoded for the top 24 manufadturers that had over 1000 sales
+----- CONDITION: this was kept with the null values dropped and then converted to a numeric mapping of 1 for new, 2 for excellent, 3 for like new, 4 for good, 5 for fair, 6 for salvage
+----- CYLINDERS: converted into an integer column matching the # of cylinders and null rows were dropped
+----- FUEL: one hot encoded into distinguishing between diesel, electric, gas, hybrid, and other 
+----- TRANSMISSION: was simple encoded into a boolean 0 for automatic, 1 for other/manual/null
+----- TYPE: one hot encoded to keep the overall kind of car the user is buying 
+
+Dropped these columns: 
+----- SIZE:  drop the column 'size' for this analysis since the model will effectively capture this by taking into account 'manufacturer'
+----- MODEL: the 'model' column was too noisy and was dropped
+----- REGION: the 'region' column was dropped due to 404 different values and inconsistent naming, etc
+----- TITLE STATUS:dropped the 'title_status' column since it's captured by 'condition' 
+----- DRIVE:dropped   since it's captured by 'type'
+
+### Correlation Map: 
+-- the correlation maps did not seem to show much correlation between the price column and the other columns which was a bit of a red flag indicating that revisiting the feature selection step might be required
+
+
+
+### Next Steps & Recommendations: 
+-- This was just a first pass at trying to see if there was any predictive nature to the used car dataset 
+-- The next phase would be to go back and try to clean up the data more and add the missing null values or impute them based on industry knowledge
+-- Additional versions of feature selection might be tried since some assumptions were made that industry experts might not agree with on which to drop
