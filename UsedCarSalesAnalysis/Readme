@@ -41,6 +41,15 @@ Dropped these columns:
 ### Correlation Map: 
 -- the correlation maps did not seem to show much correlation between the price column and the other columns which was a bit of a red flag indicating that revisiting the feature selection step might be required
 
+### Visualizations: 
+-- Car Sales by Manufacturer Counts - most used cars sold were Ford, Chevrolet and Toyota: https://github.com/tinalount/BerkeleyAIML/blob/main/UsedCarSalesAnalysis/manufacturer_histogram.jpg
+-- Car Sales by Top 24 Manufacturer Counts: https://github.com/tinalount/BerkeleyAIML/blob/main/UsedCarSalesAnalysis/manufacturer_histogram2.jpg 
+-- Car Sales by Car Age - most used cars sold were Ages 5-10: https://github.com/tinalount/BerkeleyAIML/blob/main/UsedCarSalesAnalysis/Car%20Age%20PieChart.jpg
+-- Correlation Map Price & Colors:  https://github.com/tinalount/BerkeleyAIML/blob/main/UsedCarSalesAnalysis/color_heatmap.jpg 
+-- Correlation Map Price & Manufacturer: https://github.com/tinalount/BerkeleyAIML/blob/main/UsedCarSalesAnalysis/manu_heatmap.jpg 
+-- Correlation Map Price & Fuel Type: https://github.com/tinalount/BerkeleyAIML/blob/main/UsedCarSalesAnalysis/fuel_heatmap.jpg 
+-- Correlation Map Price & Car Type: https://github.com/tinalount/BerkeleyAIML/blob/main/UsedCarSalesAnalysis/type_heatmap.jpg
+-- Correlation Map Price, Age, Odometer, Condition, Cylinders, & Transmission: https://github.com/tinalount/BerkeleyAIML/blob/main/UsedCarSalesAnalysis/other_heatmap.jpg
 
 
 ### Next Steps & Recommendations: 
