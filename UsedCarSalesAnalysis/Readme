@@ -6,9 +6,7 @@
 Link to Jupyter Notebook: <LINK>
 
 ### Data Overview: 
-The data used for this project is a "vehicles.csv" data file, with 426,880 rows and 18 columns provided of used car sales data
-
-Link to data source: 
+The data used for this project is a "vehicles.csv" data file, with 426,880 rows and 18 columns provided of used car sales data.
 
 
 ### Data Cleanup & Transformation Summary:
@@ -51,6 +49,38 @@ Dropped these columns:
 -- Correlation Map Price & Car Type: https://github.com/tinalount/BerkeleyAIML/blob/main/UsedCarSalesAnalysis/type_heatmap.jpg
 -- Correlation Map Price, Age, Odometer, Condition, Cylinders, & Transmission: https://github.com/tinalount/BerkeleyAIML/blob/main/UsedCarSalesAnalysis/other_heatmap.jpg
 
+### Modeling & Feature Selection: 
+--- A baseline Linear Regression was run with all the variables and the coefficients were analyzed and ranked to understand which variables had a strong 1:1 
+correlation with the Price variable - see plot: https://github.com/tinalount/BerkeleyAIML/blob/main/UsedCarSalesAnalysis/base_coef_plot.jpg - the first 20 
+variables have the strongest correlation with 'price'
+--- The data was split into a training set (70% of the data) and a test set (30% of the data)
+--- A Baseline MSE was calculated for the dataset to be compared against various models
+--- A Linear Regression was run against ALL the variables and the MSE calculated for the test data 
+--- A Simple Linear Regression was run against ONLY ONE variable ('Type - pickup') that had the highest correlation coefficient 
+--- A Lasso Grid Search Regression was run 
+--- Sequential Feature Selection was used with a Linear Regression and 15 variables 
+
+Baseline MSE for testing data:                   502973780564.00995
+Linear Regression1 Model MSE for testing data:   502973780564.00995
+Simple 1 Variable LR Test MSE:                   526836650998.27
+Lasso Test MSE:                                  574357495963.27
+SFS Linear Regression                            506132142897.39
+LassoSelection Linear Regression
+SFS Linear Regression  - Degree 2
+LassoSelection Linear Regression - Degree 2
+
+### Findings/TakeAways: 
+--- The sale of used PickUp trucks seem to strongly affect the 'price' - so definitely focus on acquiring pickup trucks for the inventory
+--- Regression coefficients indicate the strength and direction of the relationship between the independent variables and the dependent variable 
+in a linear regression model. Specifically, they indicate the amount of change in the dependent variable (i.e., the predicted outcome) associated 
+with a one-unit change in the independent variable while holding all other variables constant. Seems like the strongest relationship between the 
+variable and price is for the odometer reading, the colors black, blue, brown, custom, green, grey, orange, purple, red, sliver, white and yellow, 
+and the age of the car. 
+--- Key Drivers of Used Car Sales: 
+DISTANCE DRIVEN ('odometer'), 
+CAR COLOR (with blue winning and black losing) 
+CAR AGE:derived from the year, customer care about how old the car is and how much life is left in it.   
+From a manufacturing perspective, the audis win out and the acuras have a negative relationship with car price.
 
 ### Next Steps & Recommendations: 
 -- This was just a first pass at trying to see if there was any predictive nature to the used car dataset 
