@@ -72,6 +72,7 @@ LassoSelection Linear Regression - Degree 2.     1167338166198616248782466880772
 ### Model Confidence: 
 --- This first pass at a regression model leads a low confidence of prediction capability.  The dataset needs to be revisited and a different cleanup approach is likely required
 --- The data analysis does provide some insights as listed below
+--- The best Feature Selection process for this data seems to be Sequential Feature Selection
 
 ### Findings/TakeAways: 
 --- The sale of used PickUp trucks seem to strongly affect the 'price' - so definitely focus on acquiring pickup trucks for the inventory
