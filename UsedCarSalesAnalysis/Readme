@@ -65,9 +65,13 @@ Linear Regression1 Model MSE for testing data:   502973780564.00995
 Simple 1 Variable LR Test MSE:                   526836650998.27
 Lasso Test MSE:                                  574357495963.27
 SFS Linear Regression                            506132142897.39
-LassoSelection Linear Regression
-SFS Linear Regression  - Degree 2
-LassoSelection Linear Regression - Degree 2
+LassoSelection Linear Regression - Degree 1      573248857591.39
+SFS Linear Regression  - Degree 2                506132142897.39
+LassoSelection Linear Regression - Degree 2.     11673381661986162487824668807720337408.00 - very strange results
+
+### Model Confidence: 
+--- This first pass at a regression model leads a low confidence of prediction capability.  The dataset needs to be revisited and a different cleanup approach is likely required
+--- The data analysis does provide some insights as listed below
 
 ### Findings/TakeAways: 
 --- The sale of used PickUp trucks seem to strongly affect the 'price' - so definitely focus on acquiring pickup trucks for the inventory
