@@ -79,10 +79,17 @@ and the age of the car.
 --- Key Drivers of Used Car Sales: 
 DISTANCE DRIVEN ('odometer'), 
 CAR COLOR (with blue winning and black losing) 
-CAR AGE:derived from the year, customer care about how old the car is and how much life is left in it.   
-From a manufacturing perspective, the audis win out and the acuras have a negative relationship with car price.
+CAR AGE:derived from the year, customer care about how old the car is and how much life is left in it.    Most customers are comfortable buying 5-6 year old cars.
+MANUFACTURER: From a manufacturing perspective, the audis win out and the acuras have a negative relationship with car price.
 
-### Next Steps & Recommendations: 
+### Recommendations: 
+--- Stock up on pickup trucks
+--- Paint cars blue!!! They sell for more! Don't buy black cars as they tend to sell for less (negative correlation with price)
+--- Look for cars with low odometer mileage
+--- Look for 5-6 year old cars - customers are seemingly not as interested in buying 2-3 year old cars 
+--- Buy Audis (not Acuras)
+
+### Next Steps:
 -- This was just a first pass at trying to see if there was any predictive nature to the used car dataset 
 -- The next phase would be to go back and try to clean up the data more and add the missing null values or impute them based on industry knowledge
 -- Additional versions of feature selection might be tried since some assumptions were made that industry experts might not agree with on which to drop
