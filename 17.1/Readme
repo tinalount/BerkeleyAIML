@@ -9,7 +9,8 @@ Link to Jupyter Notebook:
 The goal of this analysis is to assess various Classification modeling approaches for assessing the effectiveness of a bank marketing campaign. 
 The classification goal is to predict if a customer will subscribe to a 'term deposit' banking product (yes/no for variable y).
 
-### DATA LINK: the data is uploaded to this github here: 
+### DATA LINK: the data is uploaded to this github here: 17.1/bank-full.csv
+
 ### DATA OVERVIEW
 The dataset being analyzed is from the UCI Machine Learning repository (https://archive.ics.uci.edu/ml/datasets/bank+marketing). 
 The data is from a Portuguese banking institution and is a collection of the results of multiple marketing campaigns. 
