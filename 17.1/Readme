@@ -40,17 +40,70 @@ target 'y' termloan yes/no variable.
 had an average accuracy/AUC score of 90.4% which is slightly higher than baseline  
 --- decision tree model: best hyperparameters tested for the decision tree model only gave 89.9% avaerage accuracy/AUC score which is lower than baseline
 --- support vector model (SVM): # The SVM model was taking forever to run and wasn't finishing - even reducing the # of grid search hyperparameters 
-to try
---- kNN (k-nearest neightbors) model: 
+to try - finally it ran and produced a surprisingly low score of 89.6% lower than the base model
+--- kNN (k-nearest neightbors) model: 89.5%
+
+MODEL COMPARISON RESULTS: 
+ baseline Log Regression Decision Tree    SVM    kNN
+0   90.15%     90.5%         90.3%        89.6%  89.5%
 
 ### Chosen "Best" Modeling Techique: 
--- of the different models and hyperparameters analyzed, the best modeling technique appears to be
--- the reason for this may be that Decision Trees tend to overfit large datasets with many features 
+-- Of the four different classification methods analyzed it seems like: Logistic Regression is the winner for this dataset with the modeling 
+techniquesand hyperparameters chosen. SVM tries to find the best boundary between classes using a hyperplane in higher dimensional space. 
+KNN classifies a data point by the majority vote of it's nearest neighbors. 
+Decision tree tries to split the data based on set boundary decision points in a tree. 
+Logistic regression tries to use a logistic function to estimate the probability of an input belonging to a particulaar class. 
+The model calculates a weighted sum of the input features, and then applies the logistic function to the result to produce a probability value 
+between 0 and 1.
+-- Logistic Regression might be the winner because it workswell with binary classification problems like the banking marketing dataset yes/no target. 
+It is alos less prone to overfitting like Decision Trees, kNN or SVM especially whenthe dataset is unbalanced - since the marketing dataset is highly 
+unbalanced with the majority of instances being negative (no term deposit subscription). It is also a lot faster than the other models kNN or 
+SVM that took a long time to run for the large datset. 
+
+### Feature Importance Results: 
+The feature importance from the winning Logistic Regression model is as follows: 
+               feature  coefficient
+             duration         1.09
+       contact_unknown        -0.71
+     poutcome_success         0.42
+             month_jul        -0.31
+              campaign        -0.31
+             month_aug        -0.26
+             month_nov        -0.25
+             month_jan        -0.24
+            month_may        -0.20
+    education_tertiary         0.19
+               housing        -0.17
+                housing        -0.17
+             month_mar         0.16
+        job_blue-collar        -0.12
+            month_jun         0.12
+   education_secondary         0.11
+             month_oct         0.10
+            month_sep         0.10
+                   day         0.10
+       marital_married        -0.10
+          job_housemaid        -0.08
+     education_unknown         0.07
+                  loan        -0.07
+                   loan        -0.07
+         job_management        -0.07
+           job_services        -0.06
+              previous         0.06
+        job_technician        -0.06
+       job_entrepreneur        -0.06
+           job_student         0.06
+
+It appears like the heatmap indicated that the last contact 'duration' feature (how long the customer was on thecall) is the most important 
+determinant of the customer doing a term desposit, 
+The feature 'poutcome_success' also has a positive correlation with a postive outcome so if the last time was a success its positively correlated.
+
+The three features 'contact_unknown', 'campaign contact times', 'month_jul' are negatively correlated with success. 
 
 ### Next Steps 
 -- a deeper assessment of each of the features and it's importance on the model should be done
 -- additional hyperparameter values could be tested
 
 ### Business Recommendations: 
--- Definitely target customers who have a higher bank customer duration and sucessful track record
--- 
+-- Definitely target customers that had a positive campaign outcome again to be repeat customers as well as those that had a past longer duration of calls.
+-- Avoid running Campaigns during summer months of July and August and the holiday Thanksgiving month of November that have a negative correlation with success
