@@ -3,7 +3,7 @@
 This repository is for AI/ML work done for the Berkeley AI/ML certificate course I took in 2023.
 
 
-## Practical Assignment 3 for Unit 13 Classification Techniques applied to Bank Campaign Marketing 
+## Practical Assignment 3 for Unit 17 Classification Techniques applied to Bank Campaign Marketing 
 -- Link to Practical Assignemnt 3 Jupyter Notebook:   
 
 -- See the Unit 17 Practical Assignment folder for relevant files and related Readme trext file with summary of findings from analysis
