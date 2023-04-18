@@ -27,7 +27,8 @@ The feature data available includes:
 ### Data Cleanup & Analysis  Summary:
 -- The bank-full.csv file has 45211 rows of campaign marketing data for 17 features tracked per customer
 -- the categorical data features were encoded and cleaned up resulting in 47 feature columns
--- From the Heat Map it appears that 
+-- From the Heat Map it appears that Customer Duration and Previous Campaign Outcome Success were two strongly postively correlated features with the 
+target 'y' termloan yes/no variable. 
 
 ### Data Modeling Comparison
 -- Various Classification Modeling techiques were employed with the following results: 
@@ -35,7 +36,8 @@ The feature data available includes:
 --- logistic regression model: Therefore it seems for the Logistic Regression classification model that best model used 45 features and 
 had an average accuracy/AUC score of 90.4% which is slightly higher than baseline  
 --- decision tree model: best hyperparameters tested for the decision tree model only gave 89.9% avaerage accuracy/AUC score which is lower than baseline
---- support vector model (SVM): 
+--- support vector model (SVM): # The SVM model was taking forever to run and wasn't finishing - even reducing the # of grid search hyperparameters 
+to try
 --- kNN (k-nearest neightbors) model: 
 
 ### Chosen "Best" Modeling Techique: 
@@ -47,5 +49,5 @@ had an average accuracy/AUC score of 90.4% which is slightly higher than baselin
 -- additional hyperparameter values could be tested
 
 ### Business Recommendations: 
--- 
+-- Definitely target customers who have a higher bank customer duration and sucessful track record
 -- 
