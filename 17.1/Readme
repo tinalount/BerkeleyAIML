@@ -1,1 +1,51 @@
+# BerkeleyAIML
 
+
+##This is the 17.1 assignment #3 for Berkeley's AI/ML class.  
+
+Link to Jupyter Notebook:  
+
+### OVERVIEW
+The goal of this analysis is to assess various Classification modeling approaches for assessing the effectiveness of a bank marketing campaign. 
+The classification goal is to predict if a customer will subscribe to a 'term deposit' banking product (yes/no for variable y).
+
+### DATA OVERVIEW
+The dataset being analyzed is from the UCI Machine Learning repository (https://archive.ics.uci.edu/ml/datasets/bank+marketing). 
+The data is from a Portuguese banking institution and is a collection of the results of multiple marketing campaigns. 
+The feature data available includes:
+
+* customer's age
+* job type
+* marital status
+* education level
+* credit status (default yes/no)
+* housing loan status
+* personal loan status
+* contact information
+* campaign information
+
+### Data Cleanup & Analysis  Summary:
+-- The bank-full.csv file has 45211 rows of campaign marketing data for 17 features tracked per customer
+-- the categorical data features were encoded and cleaned up resulting in 47 feature columns
+-- From the Heat Map it appears that 
+
+### Data Modeling Comparison
+-- Various Classification Modeling techiques were employed with the following results: 
+--- base model: logistic regression base default model resulted in average Accuracy/AUC score of 90.15%
+--- logistic regression model: Therefore it seems for the Logistic Regression classification model that best model used 45 features and 
+had an average accuracy/AUC score of 90.4% which is slightly higher than baseline  
+--- decision tree model: best hyperparameters tested for the decision tree model only gave 89.9% avaerage accuracy/AUC score which is lower than baseline
+--- support vector model (SVM): 
+--- kNN (k-nearest neightbors) model: 
+
+### Chosen "Best" Modeling Techique: 
+-- of the different models and hyperparameters analyzed, the best modeling technique appears to be
+-- the reason for this may be that Decision Trees tend to overfit large datasets with many features 
+
+### Next Steps 
+-- a deeper assessment of each of the features and it's importance on the model should be done
+-- additional hyperparameter values could be tested
+
+### Business Recommendations: 
+-- 
+-- 
