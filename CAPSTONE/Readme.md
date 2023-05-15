@@ -10,7 +10,7 @@ s for high school running?
 
 Deciding to compete in college at the NCAA Division 1 level takes a high level of success in high school and focus and determination in college.  Not all high schoolers will go on to continued success.  Is this a matter of their collegiate academic pressures? their changing interests and expanded horizons that college environment affords? Does the level of training or over-training in high school determine if they still have room for development in college?  
 
-**DATA SOURCES: ** 
+**DATA SOURCES:** 
 What take-aways will the data reveal? Some data sources to investigate: 
 ** https://www.xcstats.com/search-xc-california.php - various XC and track stats are kept here
 ** https://www.rtspt.com/events/cif/xc2022/mp/#event1 - CIF XC State Results from past 10 years
@@ -33,15 +33,16 @@ Round1: Preliminary EDA Data Analysis was focused just on 2016 data given how ti
 
 
 
-**DATA MODELING: **
+**DATA MODELING:**
 Preliminary EDA Modeling done: 
 
 
-**CONCLUSIONS: **
+**CONCLUSIONS:**
 Preliminary EDA Data Analysis and Modeling of 2016 data only to start with resulted in the following conclusions: 
 
-**NEXT STEPS: ** 
--- expand data to 2014-2016 (at least)
--- do further data analysis to compare time improvements from high school to college and to understand any data trends based on which high school, which division (school size) and which section (school location) to see if this affected the results in any significant way? 
--- do further data analysis to compare collegiate choices and to see if doing well in hs means getting recruited to "better" programs and thus basically sets your trajectory as a runner for college - ie. if you don't get recruited to a "top program" can you still be successful in college? How much do people improve by by college?
--- do further modeling using different techniques for final capstone project results
+**NEXT STEPS:** 
+ -- expand data to 2014-2016 (at least)
+ -- do further data analysis to compare time improvements from high school to college and to understand any data trends based on which high school, which division (school size) and which section (school location) to see if this affected the results in any significant way? 
+ -- do further data analysis to compare collegiate choices and to see if doing well in hs means getting recruited to "better" programs and thus basically sets your trajectory as a runner for college - ie. if you don't get recruited to a "top program" can you still be successful in  college? How much do people improve by by college?
+ -- do further data analysis to understand if the high school XC 5k time or track mile time is a better predictor for success in collegiate running 
+ -- do further modeling using different techniques for final capstone project results
