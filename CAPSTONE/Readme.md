@@ -31,6 +31,7 @@ What take-aways will the data reveal? Some data sources to investigate:
 * Is there a correlation or trend between where the athlete went to HS and College and whether that athlete will continue to develop/improve in their main (2) events? 
 * Do some high schools just create superstar runners? 
 * Do some colleges create superstar runners? Are there any factors that make it more likely to have a full HS/Collegiate running career? Prediction for who might go pro?
+* Does it affect a runner's development if they pick a Division 3 program versus a Division 1 program? 
 
 **DATA ANALYSIS:** 
 *Round1:* Preliminary EDA Data Analysis was focused just on 2016 data given how time-consuming and manual the compilation of the data file is.  This preliminary data analysis resulted in the following findings: 
