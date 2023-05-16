@@ -55,16 +55,23 @@ COLL1_OUT_OF_STATE
 False                    7         50.0
 True                     7         50.0
 
+
 **DATA MODELING:**
 *Preliminary EDA Modeling done:* 
+DEPENDENT VARIABLES TO PREDICT:
+* 'RUN_IN_COLLEGE_VARSITY?': likelihood the top California runner will continue to run in college
+* 'FASTER_MILE': likelihood the top California runner's mile time will improve in college - i.e. 9 runners (6.0%) got faster in the mile in college.
+* 'FASTER_5K': likelihood the top California runner's 5K will improve in college 
 
 
 **CONCLUSIONS:**
 *Preliminary EDA Data Analysis and Modeling of 2016 data only to start with resulted in the following conclusions:* 
 
+
 **NEXT STEPS:** 
-* -- expand data to 2014-2016 (at least)
+* -- expand data beyond 2016 runners only - this is incredibly manual and time consuming to collate the data together 
 * -- do further data analysis to compare time improvements from high school to college and to understand any data trends based on which high school, which division (school size) and which section (school location) to see if this affected the results in any significant way? 
 *  -- do further data analysis to compare collegiate choices and to see if doing well in hs means getting recruited to "better" programs and thus basically sets your trajectory as a runner for college - ie. if you don't get recruited to a "top program" can you still be successful in  college? How much do people improve by by college?
+*  -- do further analysis to understand if the section (geographic location) the runner comes from influences likelihood to run in college (i.e. socio-economic factors in play due to geographic region?) 
 *  -- do further data analysis to understand if the high school XC 5k time or track mile time is a better predictor for success in collegiate running 
 *  -- do further modeling using different techniques for final capstone project results
