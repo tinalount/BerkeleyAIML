@@ -2,6 +2,10 @@
 
 This repository is for AI/ML work done for the Berkeley AI/ML certificate course I took in 2023.
 
+## Capstone Project EDA Assignment Module 20.1 ** WORK IN PROGRESS **
+-- Link to Module 20.1 Jupyter Notebook:    
+
+-- See the CAPSTONE folder for relevant files and related Readme trext file with summary of findings from analysis
 
 ## Practical Assignment 3 for Unit 17 Classification Techniques applied to Bank Campaign Marketing 
 -- Link to Practical Assignemnt 3 Jupyter Notebook:   https://github.com/tinalount/BerkeleyAIML/blob/ae6d75c64e87355d6603ff05dcf2d4dacc6b2d74/17.1/TLPractical%20Assignment3.ipynb
