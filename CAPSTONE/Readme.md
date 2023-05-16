@@ -35,8 +35,25 @@ What take-aways will the data reveal? Some data sources to investigate:
 
 **DATA ANALYSIS:** 
 *Round1:* Preliminary EDA Data Analysis was focused just on 2016 data given how time-consuming and manual the compilation of the data file is.  This preliminary data analysis resulted in the following findings: 
+NOTE: need to get all 170 rows of data loaded first so this is incorrect summary: 
 
+* Breakdown by which runners continued in college:
+14 (9.3%) of top California high school XC runners went on to run in college varsity
 
+* Breakdown by college division that the runners chose
+
+                            Number of runners Percentage of runners
+College Division                                                   
+D0 (didn't run in college)                  1                 7.14%
+D1                                          8                57.14%
+D2                                          2                14.29%
+D3                                          3                21.43%
+
+* Breakdown by Out of State vs In State college choice: 
+                    Counts  Percentages
+COLL1_OUT_OF_STATE                     
+False                    7         50.0
+True                     7         50.0
 
 **DATA MODELING:**
 *Preliminary EDA Modeling done:* 
