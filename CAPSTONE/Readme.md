@@ -59,13 +59,16 @@ True                     7         50.0
 **DATA MODELING:**
 *Preliminary EDA Modeling done:* 
 DEPENDENT VARIABLES TO PREDICT:
-* 'RUN_IN_COLLEGE_VARSITY?': likelihood the top California runner will continue to run in college
+* 'RUN_IN_COLLEGE_VARSITY?': likelihood the top California runner will continue to run in college - so far model is only 25% accurate on 20 rows of data
 * 'FASTER_MILE': likelihood the top California runner's mile time will improve in college - i.e. 9 runners (6.0%) got faster in the mile in college.
 * 'FASTER_5K': likelihood the top California runner's 5K will improve in college 
 
 
 **CONCLUSIONS:**
 *Preliminary EDA Data Analysis and Modeling of 2016 data only to start with resulted in the following conclusions:* 
+MODEL CONCLUSIONS/LEARNINGS
+PHASE 1 for EARLY DATA EXPLORATION (EDA)
+With very little data (20 rows) a Linear Regression model can be applied against the top California running data from 2016 to predict if the athlete will run in college with only 25% accuracy - but this will increase with more data I'm pretty sure..... just phase 1 of understanding and sourcing the data
 
 
 **NEXT STEPS:** 
