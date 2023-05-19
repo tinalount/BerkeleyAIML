@@ -63,7 +63,9 @@ NOTE: need to get all 170 rows of data loaded first so this is incorrect summary
 *Preliminary EDA Modeling done:* 
 DEPENDENT VARIABLES TO PREDICT:
 * 'RUN_IN_COLLEGE_VARSITY?': likelihood the top California runner will continue to run in college - so far the LOGISTIC REGRESSION MODEL gave 58% accuracy while the DECISTION TREE MODEL gaver 75% accuracy - it seems like a very good dataset for using Decision Tree Analysis (based on where the athlete goes to school, which geographic location, and the size of the school) 
-<img width="285" alt="image" src="https://github.com/tinalount/BerkeleyAIM
+ 
+ <img width="566" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/cb7d8b31-5829-4520-b9ec-dfa7833a41ac">
+
 L/assets/5034662/a807254a-73b6-461e-8292-68cdf0e77e62">
 
 * 'FASTER_MILE': likelihood the top California runner's mile time will improve in college - i.e. what percentage got faster in the mile in college - i.e. 9% got faster from the 20 runners analyzed so far: 
