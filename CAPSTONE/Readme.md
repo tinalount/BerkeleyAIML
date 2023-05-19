@@ -77,8 +77,9 @@ L/assets/5034662/a807254a-73b6-461e-8292-68cdf0e77e62">
 **CONCLUSIONS:**
 *Preliminary EDA Data Analysis and Modeling of 2016 data only to start with resulted in the following conclusions:* 
 MODEL CONCLUSIONS/LEARNINGS
-PHASE 1 for EARLY DATA EXPLORATION (EDA)
-With very little data (20 rows) a Linear Regression model can be applied against the top California running data from 2016 to predict if the athlete will run in college with only 25% accuracy - but this will increase with more data I'm pretty sure..... just phase 1 of understanding and sourcing the data
+
+**PHASE 1 for EARLY DATA EXPLORATION (EDA)**
+With very little data (20 rows) two classification models were applied with different hyperparameter settings against the top California running data from 2016 to predict if the athlete will run in college with 50% accuracy using Logistic Regression and 75% accuracy using Decision Tree classification to determine if the athlete would run in college or not. It is too early to rely on these results because the data is not complete - however, early analysis does give the indication that Decision Tree modeling would be a good approach for this analysis project. It also indicates that perhaps there are not that many factors beyond a few that influence if the runner continues running into college.  Note that the data being used is already selecting the top runners in California by nature of them being in the top 30 at State so it's agreed they are all good runners - so what other factors contribute to continuing into college? 
 
 
 **NEXT STEPS:** 
