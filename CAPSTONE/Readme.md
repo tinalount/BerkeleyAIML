@@ -49,31 +49,29 @@ NOTE: need to get all 170 rows of data loaded first so this is incorrect summary
 * Breakdown by which runners continued in college:
 14 (9.3%) of top California high school XC runners went on to run in college varsity
 
-* Breakdown by college division that the runners chose
+<img width="459" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/78992740-35ff-4796-815f-cc02538a945a">
 
-                            Number of runners Percentage of runners
-College Division                                                   
-D0 (didn't run in college)                  1                 7.14%
-D1                                          8                57.14%
-D2                                          2                14.29%
-D3                                          3                21.43%
+
+* Breakdown by college division that the runners chose:
+
+<img width="486" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/69c4fee8-0b47-4a0f-a33c-9cf59cd4ce48">
+                           
+                           Number of runners Percentage of runners
 
 * Breakdown by Out of State vs In State college choice: 
-                    Counts  Percentages
-COLL1_OUT_OF_STATE                     
-False                    7         50.0
-True                     7         50.0
+* 
+<img width="307" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/a0f9a2d4-7286-4a17-8807-d448e7b82f58">
 
 
 **DATA MODELING:**
 *Preliminary EDA Modeling done:* 
 DEPENDENT VARIABLES TO PREDICT:
 * 'RUN_IN_COLLEGE_VARSITY?': likelihood the top California runner will continue to run in college - so far the LOGISTIC REGRESSION MODEL gave 58% accuracy while the DECISTION TREE MODEL gaver 75% accuracy - it seems like a very good dataset for using Decision Tree Analysis (based on where the athlete goes to school, which geographic location, and the size of the school) 
-<img width="285" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/a807254a-73b6-461e-8292-68cdf0e77e62">
+<img width="285" alt="image" src="https://github.com/tinalount/BerkeleyAIM
+L/assets/5034662/a807254a-73b6-461e-8292-68cdf0e77e62">
 
-
-* 'FASTER_MILE': likelihood the top California runner's mile time will improve in college - i.e. 9 runners (6.0%) got faster in the mile in college.
-* 'FASTER_5K': likelihood the top California runner's 5K will improve in college 
+* 'FASTER_MILE': likelihood the top California runner's mile time will improve in college - i.e. what percentage got faster in the mile in college - TO DO
+* 'FASTER_5K': likelihood the top California runner's 5K will improve in college  - TO DO
 
 
 **CONCLUSIONS:**
