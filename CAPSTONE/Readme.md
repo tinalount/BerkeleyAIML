@@ -66,7 +66,11 @@ DEPENDENT VARIABLES TO PREDICT:
 <img width="285" alt="image" src="https://github.com/tinalount/BerkeleyAIM
 L/assets/5034662/a807254a-73b6-461e-8292-68cdf0e77e62">
 
-* 'FASTER_MILE': likelihood the top California runner's mile time will improve in college - i.e. what percentage got faster in the mile in college - TO DO
+* 'FASTER_MILE': likelihood the top California runner's mile time will improve in college - i.e. what percentage got faster in the mile in college - i.e. 9% got faster from the 20 runners analyzed so far: 
+
+<img width="515" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/3b814c5c-cb42-4f35-8816-b7580d064536">
+
+
 * 'FASTER_5K': likelihood the top California runner's 5K will improve in college  - TO DO
 
 
