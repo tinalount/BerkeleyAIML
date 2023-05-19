@@ -85,6 +85,8 @@ With very little data (20 rows) two classification models were applied with diff
 
 
 **NEXT STEPS:** 
+* -- debug an issue with the Run in College field being changed to NaN instead of False/True for some values
+* -- finish creating the 2016 data file and retest model results 
 * -- expand data beyond 2016 runners only - this is incredibly manual and time consuming to collate the data together 
 * -- do further data analysis to compare time improvements from high school to college and to understand any data trends based on which high school, which division (school size) and which section (school location) to see if this affected the results in any significant way? 
 *  -- do further data analysis to compare collegiate choices and to see if doing well in hs means getting recruited to "better" programs and thus basically sets your trajectory as a runner for college - ie. if you don't get recruited to a "top program" can you still be successful in  college? How much do people improve by by college?
