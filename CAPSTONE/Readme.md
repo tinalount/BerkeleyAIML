@@ -1,4 +1,4 @@
-# Analyzing the Careers of Top California Distance Runners: Exploratory Data Analysis for High School Running Continued Success Factors**
+# Analyzing the Careers of Top California Distance Runners: Exploratory Data Analysis for High School Running Continued Success Factors
 ## Does the Athlete Make the Coach or the Coach Make the Athlete?
 
 ## Does Success in High School Running Predict Success in College?
