@@ -6,6 +6,8 @@ California high schools have produced hundreds of amazing runners that have gone
 
 Deciding to compete in college at the NCAA Division 1 level takes a high level of success in high school and focus and determination in college. Not all high schoolers will go on to continued success. Is this a matter of their collegiate academic pressures? their changing interests and expanded horizons that college environment affords? Does the level of training or over-training in high school determine if they still have room for development in college?
 
+**This project focused on exploring which top California high school runners would continue to run in college and whether there were certain predictive factors that could be determined from the data. **
+
 **DATA SOURCES:** 
 What take-aways will the data reveal? Some data sources to investigate: 
 * https://www.xcstats.com/search-xc-california.php - various XC and track stats are kept here
