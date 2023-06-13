@@ -28,14 +28,14 @@ What take-aways will the data reveal? Some data sources to investigate:
 **Questions:**¶
 * Which top California runners continue into collegiate running? Is this predictable based on their high school XC results at state?
 * Which top California runners continue into Collegiate running and what factors influence this? Is it the high school program? the geographical location? the individual athlete's drive?
-* What are the strongest factors of success for high school running?
-* Where do California High School Runners go to run in college?
-** Can we predict whether a high school athlete will continue be successful at their chosen college level program?
-** Is there a correlation or trend between where the athlete went to HS and College and whether that athlete will continue to develop/improve in their main (2) events?
-* Do some high schools create superstar runners?
-* Do some collegiate programs develop the runners better than others?
-* Is there a difference in how athletes develop depending on whether they go to D1 versus D2, D3 collegiate programs?
-* Are there any factors that make it more likely to have a full HS/Collegiate running career? Prediction for who might go pro?
+* FUTURE: What are the strongest factors of success for high school running?
+* FUTURE: Where do California High School Runners go to run in college?
+** FUTURE: Can we predict whether a high school athlete will continue be successful at their chosen college level program?
+** FUTURE: Is there a correlation or trend between where the athlete went to HS and College and whether that athlete will continue to develop/improve in their main (2) events?
+* FUTURE: Do some high schools create superstar runners?
+* FUTURE: Do some collegiate programs develop the runners better than others?
+* FUTURE: Is there a difference in how athletes develop depending on whether they go to D1 versus D2, D3 collegiate programs?
+* FUTURE: Are there any factors that make it more likely to have a full HS/Collegiate running career? Prediction for who might go pro?
 
 **FINAL PROJECT QUESTION:** 
 **Which runners continue into collegiate running?** The first preliminary question looked at for this exploratory project is to simply classify the available data to understand the factors predicting if an athlete will run in college or not.  Future analysis will include understanding which runners improved in college and what factors might have contributed to that. 
