@@ -1,7 +1,10 @@
 # Analyzing the Careers of Top California Distance Runners: Exploratory Data Analysis for High School Running Continued Success Factors
 ## Does the Athlete Make the Coach or the Coach Make the Athlete?
 
-## Does Success in High School Running Predict Success in College?
+## Capstone Project Final Code - Determining the Likelihood Top California High School Runners will run in College
+-- Link to Final Capstone Project Jupyter Notebook:  https://github.com/tinalount/BerkeleyAIML/blob/main/CAPSTONE/TL%20Capstone%20Final.ipynb
+
+## Which Top California Runners will Continue to Run in College?
 California high schools have produced hundreds of amazing runners that have gone on to continue to run and compete in college. Are there any lessons learned or obvious trends in the data that can help predict success factors for star high school runners as they attempt to choose the "right" university and competitive level (D1,D2,D3, club) for them.
 
 Deciding to compete in college at the NCAA Division 1 level takes a high level of success in high school and focus and determination in college. Not all high schoolers will go on to continued success. Is this a matter of their collegiate academic pressures? their changing interests and expanded horizons that college environment affords? Does the level of training or over-training in high school determine if they still have room for development in college?
