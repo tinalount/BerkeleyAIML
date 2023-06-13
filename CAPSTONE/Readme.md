@@ -62,31 +62,36 @@ NOTE: need to get all 170 rows of data loaded first so this is incorrect summary
 **DATA MODELING:**
 *Preliminary EDA Modeling done:* 
 DEPENDENT VARIABLES TO PREDICT:
-* 'RUN_IN_COLLEGE_VARSITY?': likelihood the top California runner will continue to run in college - so far the LOGISTIC REGRESSION MODEL gave 58% accuracy while the DECISTION TREE MODEL gaver 75% accuracy - it seems like a very good dataset for using Decision Tree Analysis (based on where the athlete goes to school, which geographic location, and the size of the school) 
+* 'RUN_IN_COLLEGE_VARSITY?': likelihood the top California runner will continue to run in college - 
+* 
+* LOGISTIC REGRESSION MODEL gave 58% accuracy while the 
+* DECISTION TREE MODEL gaver 75% accuracy - it seems like a very good dataset for using Decision Tree Analysis (based on where the athlete goes to school, which geographic location, and the size of the school) 
+* RANDOM FOREST MODEL - a Random Forest Model was added for the final project analysis and gave the best results so far of 82% accuracy
  
  <img width="566" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/cb7d8b31-5829-4520-b9ec-dfa7833a41ac">
 
 L/assets/5034662/a807254a-73b6-461e-8292-68cdf0e77e62">
 
-* 'FASTER_MILE': likelihood the top California runner's mile time will improve in college - i.e. what percentage got faster in the mile in college - i.e. 9% got faster from the 20 runners analyzed so far: 
+* FUTURE: 'FASTER_MILE': likelihood the top California runner's mile time will improve in college - i.e. what percentage got faster in the mile in college - i.e. 9% got faster from the 20 runners analyzed so far: 
 
 <img width="515" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/3b814c5c-cb42-4f35-8816-b7580d064536">
 
 
-* 'FASTER_5K': likelihood the top California runner's 5K will improve in college  - TO DO
+* FUTURE: 'FASTER_5K': likelihood the top California runner's 5K will improve in college  - TO DO
 
 
 **CONCLUSIONS:**
 *Preliminary EDA Data Analysis and Modeling of 2016 data only to start with resulted in the following conclusions:* 
-MODEL CONCLUSIONS/LEARNINGS
+
+**PHASE 2 for DETERMINING WHICH TOP RUNNERS WILL COMPETE COLLEGIATELY** 
+For the final Capstone Project, the data collected was increased to cover all 2016 top runners from California (this is a first step and continuing this project will involved collecting additional years of high school data). 
+
 
 **PHASE 1 for EARLY DATA EXPLORATION (EDA)**
 With very little data (20 rows) two classification models were applied with different hyperparameter settings against the top California running data from 2016 to predict if the athlete will run in college with 50% accuracy using Logistic Regression and 75% accuracy using Decision Tree classification to determine if the athlete would run in college or not. It is too early to rely on these results because the data is not complete - however, early analysis does give the indication that Decision Tree modeling would be a good approach for this analysis project. It also indicates that perhaps there are not that many factors beyond a few that influence if the runner continues running into college.  Note that the data being used is already selecting the top runners in California by nature of them being in the top 30 at State so it's agreed they are all good runners - so what other factors contribute to continuing into college? 
 
 
 **NEXT STEPS:** 
-* -- debug an issue with the Run in College field being changed to NaN instead of False/True for some values
-* -- finish creating the 2016 data file and retest model results 
 * -- expand data beyond 2016 runners only - this is incredibly manual and time consuming to collate the data together 
 * -- do further data analysis to compare time improvements from high school to college and to understand any data trends based on which high school, which division (school size) and which section (school location) to see if this affected the results in any significant way? 
 *  -- do further data analysis to compare collegiate choices and to see if doing well in hs means getting recruited to "better" programs and thus basically sets your trajectory as a runner for college - ie. if you don't get recruited to a "top program" can you still be successful in  college? How much do people improve by by college?
