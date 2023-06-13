@@ -35,11 +35,12 @@ What take-aways will the data reveal? Some data sources to investigate:
 * Is there a difference in how athletes develop depending on whether they go to D1 versus D2, D3 collegiate programs?
 * Are there any factors that make it more likely to have a full HS/Collegiate running career? Prediction for who might go pro?
 
-**EDA QUESTION:** 
-**Which runners continue into collegiate running?** The first preliminary question looked at for the EDA(exploratory data analysis) phase is to simply classify the available data to understand the factors predicting if an athlete will run in college or not
+**FINAL PROJECT QUESTION:** 
+**Which runners continue into collegiate running?** The first preliminary question looked at for this exploratory project is to simply classify the available data to understand the factors predicting if an athlete will run in college or not.  Future analysis will include understanding which runners improved in college and what factors might have contributed to that. 
 
 **DATA ANALYSIS:** 
-*Round1:* Preliminary EDA Data Analysis was focused just on 2016 data given how time-consuming and manual the compilation of the data file is.  This preliminary data analysis resulted in the following findings: 
+* The Data Analysis for this project was focused just on 2016 data given how time-consuming and manual the compilation of the data file is.  This preliminary data analysis resulted in the following findings: 
+
 NOTE: need to get all 170 rows of data loaded first so this is incorrect summary: 
 
 * Breakdown by which runners continued in college:
