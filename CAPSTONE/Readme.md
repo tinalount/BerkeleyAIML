@@ -8,32 +8,32 @@ Deciding to compete in college at the NCAA Division 1 level takes a high level o
 
 **DATA SOURCES:** 
 What take-aways will the data reveal? Some data sources to investigate: 
-** https://www.xcstats.com/search-xc-california.php - various XC and track stats are kept here
-** https://www.rtspt.com/events/cif/xc2022/mp/#event1 - CIF XC State Results from past 10 years
-** https://www.strava.com/activities/8387865995/overview - Strava contains a wealth of runner information and does have a public API - I also am trying to meet with Strava's head AI Data Scientist
-** https://athletic.net  - contains athlete profiles for both High School and Collegiate Records/times 
-** https://www.milesplit.com/signings - several places provide data on who signed to go run at which college
-** https://ca.milesplit.com/signings?year=2016&state=ca&sortBy=athlete&collegeSearch=&page=1 - 2016 signings summary
+* https://www.xcstats.com/search-xc-california.php - various XC and track stats are kept here
+* https://www.rtspt.com/events/cif/xc2022/mp/#event1 - CIF XC State Results from past 10 years
+* https://www.strava.com/activities/8387865995/overview - Strava contains a wealth of runner information and does have a public API - I also am trying to meet with Strava's head AI Data Scientist
+* https://athletic.net  - contains athlete profiles for both High School and Collegiate Records/times 
+* https://www.milesplit.com/signings - several places provide data on who signed to go run at which college
+* https://ca.milesplit.com/signings?year=2016&state=ca&sortBy=athlete&collegeSearch=&page=1 - 2016 signings summary
 
 **Data Collection:** will have to be manual and pieced together from various sources - very time-consuming process
-** **STEP ONE:** Collate a list of past top California XC runners (on the Woodward State Park 5K Course used every year) - obtained from: https://www.cifstate.org/sports/cross_country/past_results_records/index - gather the top 30 male runners by divisional race and their times for 2016 in preliminary analysis phase and then add 2014, 2015 years time-permitting
-** **STEP TWO:** Runner by runner, determine if that runner ran in college using the following two main search sites as well as a generic google search per athlete: https://www.tfrrs.org/, https://ca.milesplit.com/signings?year=2016&state=ca&sortBy=athlete&collegeSearch=&page=1
-** **STEP THREE:** Using profile summary sites fill out athlete's profile data if possible: HS Mile PR/1600m PR and College 5K, 3K, Mile PRS,  College In/Out of State? Location/State of College
-** **FUTURE:** Obtain additional High School data - School Name, Coach, Division/Size, Graduation Year, Location, Private/Public
-** **FUTURE** Obtain Athlete data - Name, DOB, Multi-Sport?, Years competing in HS?, Years Competing in MS?, Years Conmpeting in College?, Event Specialty, HS Events, College Events, GoPro? (Y/N), 
-** **FUTURE** Obtain additional College data - School Name, Coach, Division/Size, Graduation Year, Gap Year?, Location
+* **STEP ONE:** Collate a list of past top California XC runners (on the Woodward State Park 5K Course used every year) - obtained from: https://www.cifstate.org/sports/cross_country/past_results_records/index - gather the top 30 male runners by divisional race and their times for 2016 in preliminary analysis phase and then add 2014, 2015 years time-permitting
+* **STEP TWO:** Runner by runner, determine if that runner ran in college using the following two main search sites as well as a generic google search per athlete: https://www.tfrrs.org/, https://ca.milesplit.com/signings?year=2016&state=ca&sortBy=athlete&collegeSearch=&page=1
+* **STEP THREE:** Using profile summary sites fill out athlete's profile data if possible: HS Mile PR/1600m PR and College 5K, 3K, Mile PRS,  College In/Out of State? Location/State of College
+* **FUTURE:** Obtain additional High School data - School Name, Coach, Division/Size, Graduation Year, Location, Private/Public
+* **FUTURE** Obtain Athlete data - Name, DOB, Multi-Sport?, Years competing in HS?, Years Competing in MS?, Years Conmpeting in College?, Event Specialty, HS Events, College Events, GoPro? (Y/N), 
+* **FUTURE** Obtain additional College data - School Name, Coach, Division/Size, Graduation Year, Gap Year?, Location
 
 **Questions:**¶
-** Which top California runners continue into collegiate running? Is this predictable based on their high school XC results at state?
-** Which top California runners continue into Collegiate running and what factors influence this? Is it the high school program? the geographical location? the individual athlete's drive?
-** What are the strongest factors of success for high school running?
-** Where do California High School Runners go to run in college?
+* Which top California runners continue into collegiate running? Is this predictable based on their high school XC results at state?
+* Which top California runners continue into Collegiate running and what factors influence this? Is it the high school program? the geographical location? the individual athlete's drive?
+* What are the strongest factors of success for high school running?
+* Where do California High School Runners go to run in college?
 ** Can we predict whether a high school athlete will continue be successful at their chosen college level program?
 ** Is there a correlation or trend between where the athlete went to HS and College and whether that athlete will continue to develop/improve in their main (2) events?
-** Do some high schools create superstar runners?
-** Do some collegiate programs develop the runners better than others?
-** Is there a difference in how athletes develop depending on whether they go to D1 versus D2, D3 collegiate programs?
-** Are there any factors that make it more likely to have a full HS/Collegiate running career? Prediction for who might go pro?
+* Do some high schools create superstar runners?
+* Do some collegiate programs develop the runners better than others?
+* Is there a difference in how athletes develop depending on whether they go to D1 versus D2, D3 collegiate programs?
+* Are there any factors that make it more likely to have a full HS/Collegiate running career? Prediction for who might go pro?
 
 **EDA QUESTION:** 
 **Which runners continue into collegiate running?** The first preliminary question looked at for the EDA(exploratory data analysis) phase is to simply classify the available data to understand the factors predicting if an athlete will run in college or not
@@ -55,7 +55,7 @@ NOTE: need to get all 170 rows of data loaded first so this is incorrect summary
                            Number of runners Percentage of runners
 
 * Breakdown by Out of State vs In State college choice: 
-* 
+
 <img width="307" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/a0f9a2d4-7286-4a17-8807-d448e7b82f58">
 
 
@@ -65,10 +65,10 @@ NOTE: need to get all 170 rows of data loaded first so this is incorrect summary
 **DEPENDENT VARIABLES TO PREDICT:**
 * The main target variable explored was the 'RUN_IN_COLLEGE_VARSITY?' variable: indicates whether the top California runner continued to run in college  
 
-**The Models explored included: **
+The Models explored included: 
 * LOGISTIC REGRESSION MODEL gave 58% accuracy 
 * DECISTION TREE MODEL gaver 75% accuracy - it seems like a very good dataset for using Decision Tree Analysis (based on where the athlete goes to school, which geographic location, and the size of the school) 
-*  <img width="566" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/cb7d8b31-5829-4520-b9ec-dfa7833a41ac">
+ <img width="566" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/cb7d8b31-5829-4520-b9ec-dfa7833a41ac">
 
 * RANDOM FOREST MODEL - a Random Forest Model was added for the final project analysis and gave the best results so far of 82% accuracy
 
@@ -79,6 +79,7 @@ NOTE: need to get all 170 rows of data loaded first so this is incorrect summary
 
 
 **CONCLUSIONS:DETERMINING WHICH TOP RUNNERS WILL COMPETE COLLEGIATELY** 
+
 This project analyzed data from all the top cross country high school boy runners in the state of California for 2016 (top 30 across all 5 divisions) in order to understand the likelihood that these top runners would continue to run in college in the United States. Part of the motivation for this project was to understand what the main predictors for success in developing high school runners through to college and on to potentially professional levels.  Is it the coaches at particular high schools making the difference for the kids continuing in the sport or is it other factors such as socio-economic location factors or the size of the high school (division by divsion)? 
 
 For the final Capstone Project, the data collected was increased to cover all 2016 top runners from California (this is a first step and continuing this project will involved collecting additional years of high school data). 
