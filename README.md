@@ -3,7 +3,7 @@
 This repository is for AI/ML work done for the Berkeley AI/ML certificate course I took in 2023.
 
 ## Capstone Project Final Code - Determining the Likelihood Top California High School Runners will run in College
--- Link to Final Capstone Project Jupyter Notebook: https://github.com/tinalount/BerkeleyAIML/blob/main/CAPSTONE/TL%Capstone%Final.ipynb 
+-- Link to Final Capstone Project Jupyter Notebook:  https://github.com/tinalount/BerkeleyAIML/blob/main/CAPSTONE/TL%20Capstone%20Final.ipynb
 
 ## Capstone Project EDA Assignment Module 20.1 ** WORK IN PROGRESS **
 -- Link to Module 20.1 Jupyter Notebook: https://github.com/tinalount/BerkeleyAIML/blob/main/CAPSTONE/TL%20Capstone%20EDA.ipynb    
