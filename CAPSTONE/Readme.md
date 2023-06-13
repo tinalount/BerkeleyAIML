@@ -70,8 +70,6 @@ NOTE: need to get all 170 rows of data loaded first so this is incorrect summary
 * DECISTION TREE MODEL gaver 75% accuracy - it seems like a very good dataset for using Decision Tree Analysis (based on where the athlete goes to school, which geographic location, and the size of the school) 
 *  <img width="566" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/cb7d8b31-5829-4520-b9ec-dfa7833a41ac">
 
-L/assets/5034662/a807254a-73b6-461e-8292-68cdf0e77e62">
-
 * RANDOM FOREST MODEL - a Random Forest Model was added for the final project analysis and gave the best results so far of 82% accuracy
 
 
@@ -80,19 +78,21 @@ L/assets/5034662/a807254a-73b6-461e-8292-68cdf0e77e62">
 <img width="515" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/3b814c5c-cb42-4f35-8816-b7580d064536">
 
 
-**CONCLUSIONS:**
-*Preliminary EDA Data Analysis and Modeling of 2016 data only to start with resulted in the following conclusions:* 
+**CONCLUSIONS:DETERMINING WHICH TOP RUNNERS WILL COMPETE COLLEGIATELY** 
+This project analyzed data from all the top cross country high school boy runners in the state of California for 2016 (top 30 across all 5 divisions) in order to understand the likelihood that these top runners would continue to run in college in the United States. Part of the motivation for this project was to understand what the main predictors for success in developing high school runners through to college and on to potentially professional levels.  Is it the coaches at particular high schools making the difference for the kids continuing in the sport or is it other factors such as socio-economic location factors or the size of the high school (division by divsion)? 
 
-
-**PHASE 2 for DETERMINING WHICH TOP RUNNERS WILL COMPETE COLLEGIATELY** 
 For the final Capstone Project, the data collected was increased to cover all 2016 top runners from California (this is a first step and continuing this project will involved collecting additional years of high school data). 
 
-<CONCLUSIONS HERE> 
+Of the three Machine Learning algorithms deployed the Random Forest performed the best so those results are used for this conclusion. 
+
+<CONCLUSION HERE> 
 
 
-**PHASE 1 for EARLY DATA EXPLORATION (EDA)**
+  
+  
+  
+**EARLIER FINDINGS: PHASE 1 for EARLY DATA EXPLORATION (EDA)**
 With very little data (20 rows) two classification models were applied with different hyperparameter settings against the top California running data from 2016 to predict if the athlete will run in college with 50% accuracy using Logistic Regression and 75% accuracy using Decision Tree classification to determine if the athlete would run in college or not. It is too early to rely on these results because the data is not complete - however, early analysis does give the indication that Decision Tree modeling would be a good approach for this analysis project. It also indicates that perhaps there are not that many factors beyond a few that influence if the runner continues running into college.  Note that the data being used is already selecting the top runners in California by nature of them being in the top 30 at State so it's agreed they are all good runners - so what other factors contribute to continuing into college? 
-
 
 **NEXT STEPS:** 
 * -- expand data beyond 2016 runners only - this is incredibly manual and time consuming to collate the data together 
