@@ -61,30 +61,33 @@ NOTE: need to get all 170 rows of data loaded first so this is incorrect summary
 
 **DATA MODELING:**
 *Preliminary EDA Modeling done:* 
-DEPENDENT VARIABLES TO PREDICT:
-* 'RUN_IN_COLLEGE_VARSITY?': likelihood the top California runner will continue to run in college - 
-* 
-* LOGISTIC REGRESSION MODEL gave 58% accuracy while the 
+
+**DEPENDENT VARIABLES TO PREDICT:**
+* The main target variable explored was the 'RUN_IN_COLLEGE_VARSITY?' variable: indicates whether the top California runner continued to run in college  
+
+**The Models explored included: **
+* LOGISTIC REGRESSION MODEL gave 58% accuracy 
 * DECISTION TREE MODEL gaver 75% accuracy - it seems like a very good dataset for using Decision Tree Analysis (based on where the athlete goes to school, which geographic location, and the size of the school) 
-* RANDOM FOREST MODEL - a Random Forest Model was added for the final project analysis and gave the best results so far of 82% accuracy
- 
- <img width="566" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/cb7d8b31-5829-4520-b9ec-dfa7833a41ac">
+*  <img width="566" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/cb7d8b31-5829-4520-b9ec-dfa7833a41ac">
 
 L/assets/5034662/a807254a-73b6-461e-8292-68cdf0e77e62">
 
-* FUTURE: 'FASTER_MILE': likelihood the top California runner's mile time will improve in college - i.e. what percentage got faster in the mile in college - i.e. 9% got faster from the 20 runners analyzed so far: 
+* RANDOM FOREST MODEL - a Random Forest Model was added for the final project analysis and gave the best results so far of 82% accuracy
+
+
+* A possible future dependent variable to explore is the 'FASTER_MILE' feature: likelihood the top California runner's mile time will improve in college - i.e. what percentage got faster in the mile in college - i.e. 9% got faster from the 20 runners analyzed so far: 
 
 <img width="515" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/3b814c5c-cb42-4f35-8816-b7580d064536">
-
-
-* FUTURE: 'FASTER_5K': likelihood the top California runner's 5K will improve in college  - TO DO
 
 
 **CONCLUSIONS:**
 *Preliminary EDA Data Analysis and Modeling of 2016 data only to start with resulted in the following conclusions:* 
 
+
 **PHASE 2 for DETERMINING WHICH TOP RUNNERS WILL COMPETE COLLEGIATELY** 
 For the final Capstone Project, the data collected was increased to cover all 2016 top runners from California (this is a first step and continuing this project will involved collecting additional years of high school data). 
+
+<CONCLUSIONS HERE> 
 
 
 **PHASE 1 for EARLY DATA EXPLORATION (EDA)**
