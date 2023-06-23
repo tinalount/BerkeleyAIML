@@ -47,12 +47,11 @@ The first preliminary question looked at for this exploratory project is to simp
 **DATA ANALYSIS:** 
 * The Data Analysis for this project was focused just on 2016 data given how time-consuming and manual the compilation of the data file is.  This preliminary data analysis resulted in the following findings: 
 
-NOTE: need to get all 170 rows of data loaded first so this is incorrect summary: 
-
 * Breakdown by which runners continued in college:
-14 (9.3%) of top California high school XC runners went on to run in college varsity
+124 (82.67%) of the top 150 California high school XC boy runners in 2016 went on to run in college varsity
 
 <img width="459" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/78992740-35ff-4796-815f-cc02538a945a">
+CAPSTONE/Graphs/percentage_of_runners_by_college_division.png
 
 
 * Breakdown by college division that the runners chose:
