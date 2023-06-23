@@ -63,22 +63,15 @@ The first preliminary question looked at for this exploratory project is to simp
 
 <img width="486" alt="image" src="https://github.com/tinalount/BerkeleyAIML/blob/main/CAPSTONE/Graphs/collegiate_runners_by_state_percentage.png">  
 
-                           
-Number of runners Percentage of runners
 
-* Breakdown by Out of State vs In State college choice: 
-
-<img width="307" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/a0f9a2d4-7286-4a17-8807-d448e7b82f58">
 
 
 **DATA MODELING:**
 *Preliminary EDA Modeling done:* 
 
 **DEPENDENT VARIABLES TO PREDICT:**
-* The main target variable explored was the 'RUN_IN_COLLEGE_VARSITY?' variable: indicates whether the top California runner continued to run in college  
-* A possible future dependent variable to explore is the 'FASTER_MILE' feature: likelihood the top California runner's mile time will improve in college - i.e. what percentage got faster in the mile in college - i.e. 9% got faster from the 20 runners analyzed so far: 
-
-<img width="515" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/3b814c5c-cb42-4f35-8816-b7580d064536">
+* The main target variable explored was the 'RUN_IN_COLLEGE_VARSITY?' variable: indicates whether the top California runner continued to run in college  and whether we could determine any key indicators for this outcome 
+* A possible future dependent variable to explore is the 'FASTER_MILE' feature: likelihood the top California runner's mile time will improve in college 
 
 
 **RESULTS:**
@@ -90,6 +83,11 @@ Logistic Regression Results: The best Logistic Regression model results gave an 
 * DECISTION TREE MODEL
 Decision Tree Results: Decision Tree Model produced an accuracy of 59.3% (with 10 features selected giving best results)¶ The output of the Decision Tree model was very interesting because it consistently showed the DIVISION the athlete ran in to be the most important decision factor for whether the athlete would continue to run in college.
 The Decision Tree Model first splits the decision based on the DIVISION the athlete ran in at the State Championships and then their OVERALL TIME, and then the next important features are the High School Year and the SCHOOL THEY WENT TO
+
+<img width="486" alt="image" src="https://github.com/tinalount/BerkeleyAIML/blob/main/CAPSTONE/Graphs/decision_tree.png"> 
+
+<img width="486" alt="image" src="https://github.com/tinalount/BerkeleyAIML/blob/main/CAPSTONE/Graphs/decision_tree_scores.png"> 
+
 
 * RANDOM FOREST MODEL with GridSearch algorithm
 Random Forest Results: Random Forest initially gives a 59.3% accuracy - about the same 3,4, or 10 features are selected.
