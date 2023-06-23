@@ -51,7 +51,9 @@ The first preliminary question looked at for this exploratory project is to simp
 124 (82.67%) of the top 150 California high school XC boy runners in 2016 went on to run in college varsity
 
 <img width="459" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/78992740-35ff-4796-815f-cc02538a945a">
-CAPSTONE/Graphs/percentage_of_runners_by_college_division.png
+
+[![How Many Ran in College?](https://github.com/tinalount/BerkeleyAIML/raw/main/CAPSTONE/Graphs/y_variable_plot.png)]
+
 
 
 * Breakdown by college division that the runners chose:
