@@ -50,10 +50,13 @@ The first preliminary question looked at for this exploratory project is to simp
 * Breakdown by which runners continued in college:
 124 (82.67%) of the top 150 California high school XC boy runners in 2016 went on to run in college varsity
 
-[![How Many Ran in College?](https://github.com/tinalount/BerkeleyAIML/raw/main/CAPSTONE/Graphs/y_variable_plot.png)]
+
+<img width="486" alt="image" src="https://github.com/tinalount/BerkeleyAIML/raw/main/CAPSTONE/Graphs/y_variable_plot.png">
 
 
-[![Breakdown by College Division] (https://github.com/tinalount/BerkeleyAIML/blob/main/CAPSTONE/Graphs/percentage_of_runners_by_college_division.png)]
+<img width="486" alt="image" src="https://github.com/tinalount/BerkeleyAIML/blob/main/CAPSTONE/Graphs/percentage_of_runners_by_college_division.png">
+
+
 
 
 * Breakdown by college division that the runners chose:
