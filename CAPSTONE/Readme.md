@@ -110,9 +110,8 @@ The following are the key take-aways from Phase 1 of this analysis project:
 * Other factors include the particular school the athlete is from and actually the religion of the athlete as many Christian schools offer running scholarships or programs. How fast the athlete runs in high school only matters up to a point.
 * Several who ran incredibly fast in high school go on to run well in college while others don't.
 * And several that ran pretty well in high school go on to run extremely well in college, surpassing those that beat them in high school.
-* **-- All of these initial modeling results and findings lead me to believe that it is actually the PROGRAM that makes the ATHLETE as opposed to the ATHLETE that makes the PROGRAM. PROGRAM includes not just the coach but also the SIZE of the team, the LOCATION of the school, the ECONOMIC wealth of the program, the SUPPORT given the athlete (in terms of adult support/nutrition/team culture/etc), and the COMMITMENT to the team by the ATHLETE.**
+* <span style="color:blue"> **All of these initial modeling results and findings lead me to believe that it is actually the PROGRAM that makes the ATHLETE as opposed to the ATHLETE that makes the PROGRAM. PROGRAM includes not just the coach but also the SIZE of the team, the LOCATION of the school, the ECONOMIC wealth of the program, the SUPPORT given the athlete (in terms of adult support/nutrition/team culture/etc), and the COMMITMENT to the team by the ATHLETE.** </span>
 * If you want to run fast, go to the high school or university with a program that has the resources and dedicated culture to support athlete progression and development.
-
 
 
 **NEXT STEPS:** 
