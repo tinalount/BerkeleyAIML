@@ -91,10 +91,11 @@ The Decision Tree Model first splits the decision based on the DIVISION the athl
 
 * **RANDOM FOREST MODEL with GridSearch algorithm**
 Random Forest Results: Random Forest initially gives a 59.3% accuracy - about the same 3,4, or 10 features are selected.
-However, when the gridsearch was applied to find the best hyperparameters for the model, the accuracy increased to 84.4% using 10 estimators and a maximum decision tree depth of 3.
+However, when the gridsearch was applied to find the best hyperparameters for the model, the **accuracy increased to 84.4%** using 10 estimators and a maximum decision tree depth of 3.
 
 <img width="486" alt="image" src="https://github.com/tinalount/BerkeleyAIML/blob/main/CAPSTONE/Graphs/random_forest_scores2.png"> 
 
+**SO USING A RANDOM FOREST MODEL WE CAN PREDICT WITH 84.4% accuracy whether the cross country runner finishing in the top 30 at the California State Championships will continue to run in college.**
 
 **CONCLUSIONS:DETERMINING WHICH TOP RUNNERS WILL COMPETE COLLEGIATELY** 
 This project analyzed data from all the top cross country high school boy runners in the state of California for 2016 (top 30 across all 5 divisions) in order to understand the likelihood that these top runners would continue to run in college in the United States. Part of the motivation for this project was to understand what the main predictors for success in developing high school runners through to college and on to potentially professional levels.  Is it the coaches at particular high schools making the difference for the kids continuing in the sport or is it other factors such as socio-economic location factors or the size of the high school (division by divsion)? 
