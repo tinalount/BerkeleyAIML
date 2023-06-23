@@ -41,7 +41,8 @@ What take-aways will the data reveal? Some data sources to investigate:
 * FUTURE: Are there any factors that make it more likely to have a full HS/Collegiate running career? Prediction for who might go pro?
 
 **FINAL PROJECT QUESTION:** 
-**Which runners continue into collegiate running?** The first preliminary question looked at for this exploratory project is to simply classify the available data to understand the factors predicting if an athlete will run in college or not.  Future analysis will include understanding which runners improved in college and what factors might have contributed to that. 
+**Which runners continue into collegiate running?** 
+The first preliminary question looked at for this exploratory project is to simply classify the available data to understand the factors predicting if an athlete will run in college or not.  Future analysis will include understanding which runners improved in college and what factors might have contributed to that. 
 
 **DATA ANALYSIS:** 
 * The Data Analysis for this project was focused just on 2016 data given how time-consuming and manual the compilation of the data file is.  This preliminary data analysis resulted in the following findings: 
@@ -74,8 +75,6 @@ NOTE: need to get all 170 rows of data loaded first so this is incorrect summary
 
 <img width="515" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/3b814c5c-cb42-4f35-8816-b7580d064536">
 
-**EARLIER FINDINGS: PHASE 1 for EARLY DATA EXPLORATION (EDA)**
-With very little data (20 rows) two classification models were applied with different hyperparameter settings against the top California running data from 2016 to predict if the athlete will run in college with 50% accuracy using Logistic Regression and 75% accuracy using Decision Tree classification to determine if the athlete would run in college or not. It is too early to rely on these results because the data is not complete - however, early analysis does give the indication that Decision Tree modeling would be a good approach for this analysis project. It also indicates that perhaps there are not that many factors beyond a few that influence if the runner continues running into college.  Note that the data being used is already selecting the top runners in California by nature of them being in the top 30 at State so it's agreed they are all good runners - so what other factors contribute to continuing into college? 
 
 **RESULTS:**
 The Models explored included:
@@ -99,8 +98,14 @@ For the final Capstone Project, the data collected was increased to cover all 20
 
 **CONCLUSIONS:**
 The following are the key take-aways from Phase 1 of this analysis project:
--- It appears that the majority of top California distance boy runners continue on to compete in college each year or about 3/4ths of the runners. It seems that the athlete's school size (division) and cross country/track program plays a very large role in whether the athlete will continue on into college. Other factors include the particular school the athlete is from and actually the religion of the athlete as many Christian schools offer running scholarships or programs. How fast the athlete runs in high school only matters up to a point. Several who ran incredibly fast in high school go on to run well in college while others don't. And several that ran pretty well in high school go on to run extremely well in college, surpassing those that beat them in high school.
-**-- All of these initial modeling results and findings lead me to believe that it is actually the PROGRAM that makes the ATHLETE as opposed to the ATHLETE that makes the PROGRAM. By PROGRAM I mean not just the coach but also the SIZE of the team, the LOCATION of the school, the ECONOMIC wealth of the program, the SUPPORT given the athlete (in terms of adult support/nutrition/team culture/etc), and the COMMITMENT to the team by the ATHLETE.**
+
+* It appears that the majority of top California distance boy runners continue on to compete in college each year or about 3/4ths of the runners.
+* The athlete's school size (division) and cross country/track program plays a very large role in whether the athlete will continue on into college.
+* Other factors include the particular school the athlete is from and actually the religion of the athlete as many Christian schools offer running scholarships or programs. How fast the athlete runs in high school only matters up to a point.
+* Several who ran incredibly fast in high school go on to run well in college while others don't.
+* And several that ran pretty well in high school go on to run extremely well in college, surpassing those that beat them in high school.
+* **-- All of these initial modeling results and findings lead me to believe that it is actually the PROGRAM that makes the ATHLETE as opposed to the ATHLETE that makes the PROGRAM. PROGRAM includes not just the coach but also the SIZE of the team, the LOCATION of the school, the ECONOMIC wealth of the program, the SUPPORT given the athlete (in terms of adult support/nutrition/team culture/etc), and the COMMITMENT to the team by the ATHLETE.**
+* If you want to run fast, go to the high school or university with a program that has the resources and dedicated culture to support athlete progression and development.
 
 
 
