@@ -48,22 +48,23 @@ The first preliminary question looked at for this exploratory project is to simp
 * The Data Analysis for this project was focused just on 2016 data given how time-consuming and manual the compilation of the data file is.  This preliminary data analysis resulted in the following findings: 
 
 * Breakdown by which runners continued in college:
-124 (82.67%) of the top 150 California high school XC boy runners in 2016 went on to run in college varsity
+124 (82.67%) of the top 150 California high school XC boy runners in 2016 went on to run in college varsity. 
 
 
 <img width="486" alt="image" src="https://github.com/tinalount/BerkeleyAIML/raw/main/CAPSTONE/Graphs/y_variable_plot.png">
 
 
+* Breakdown by college division that the runners chose:  Of those that ran in college, 72.5% ran at D1 schools, 10.8% ran at D2 schools, 8.3% ran at D3 schools, 4.2% ran at Community Colleges, and 3.3% ran at NAIA division schools. 
+
 <img width="486" alt="image" src="https://github.com/tinalount/BerkeleyAIML/blob/main/CAPSTONE/Graphs/percentage_of_runners_by_college_division.png">
 
 
+* In-State versus Out-Of-State: of those that ran in college, 43 ventured out-of-state (35.8%) to run wile 77 (64.2%) stayed in-state.
 
+<img width="486" alt="image" src="https://github.com/tinalount/BerkeleyAIML/blob/main/CAPSTONE/Graphs/collegiate_runners_by_state_percentage.png">  
 
-* Breakdown by college division that the runners chose:
-
-<img width="486" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/69c4fee8-0b47-4a0f-a33c-9cf59cd4ce48">
                            
-                           Number of runners Percentage of runners
+Number of runners Percentage of runners
 
 * Breakdown by Out of State vs In State college choice: 
 
