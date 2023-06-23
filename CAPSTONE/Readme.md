@@ -70,36 +70,39 @@ NOTE: need to get all 170 rows of data loaded first so this is incorrect summary
 
 **DEPENDENT VARIABLES TO PREDICT:**
 * The main target variable explored was the 'RUN_IN_COLLEGE_VARSITY?' variable: indicates whether the top California runner continued to run in college  
-
-The Models explored included: 
-* LOGISTIC REGRESSION MODEL gave 58% accuracy 
-* DECISTION TREE MODEL gaver 75% accuracy - it seems like a very good dataset for using Decision Tree Analysis (based on where the athlete goes to school, which geographic location, and the size of the school) 
- <img width="566" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/cb7d8b31-5829-4520-b9ec-dfa7833a41ac">
-
-* RANDOM FOREST MODEL - a Random Forest Model was added for the final project analysis and gave the best results so far of 82% accuracy
-
-
 * A possible future dependent variable to explore is the 'FASTER_MILE' feature: likelihood the top California runner's mile time will improve in college - i.e. what percentage got faster in the mile in college - i.e. 9% got faster from the 20 runners analyzed so far: 
 
 <img width="515" alt="image" src="https://github.com/tinalount/BerkeleyAIML/assets/5034662/3b814c5c-cb42-4f35-8816-b7580d064536">
 
-
-**CONCLUSIONS:DETERMINING WHICH TOP RUNNERS WILL COMPETE COLLEGIATELY** 
-
-This project analyzed data from all the top cross country high school boy runners in the state of California for 2016 (top 30 across all 5 divisions) in order to understand the likelihood that these top runners would continue to run in college in the United States. Part of the motivation for this project was to understand what the main predictors for success in developing high school runners through to college and on to potentially professional levels.  Is it the coaches at particular high schools making the difference for the kids continuing in the sport or is it other factors such as socio-economic location factors or the size of the high school (division by divsion)? 
-
-For the final Capstone Project, the data collected was increased to cover all 2016 top runners from California (this is a first step and continuing this project will involved collecting additional years of high school data). 
-
-Of the three Machine Learning algorithms deployed the Random Forest performed the best so those results are used for this conclusion. 
-
-<CONCLUSION HERE> 
-
-
-  
-  
-  
 **EARLIER FINDINGS: PHASE 1 for EARLY DATA EXPLORATION (EDA)**
 With very little data (20 rows) two classification models were applied with different hyperparameter settings against the top California running data from 2016 to predict if the athlete will run in college with 50% accuracy using Logistic Regression and 75% accuracy using Decision Tree classification to determine if the athlete would run in college or not. It is too early to rely on these results because the data is not complete - however, early analysis does give the indication that Decision Tree modeling would be a good approach for this analysis project. It also indicates that perhaps there are not that many factors beyond a few that influence if the runner continues running into college.  Note that the data being used is already selecting the top runners in California by nature of them being in the top 30 at State so it's agreed they are all good runners - so what other factors contribute to continuing into college? 
+
+**RESULTS:**
+The Models explored included:
+
+* LOGISTIC REGRESSION MODEL
+Logistic Regression Results: The best Logistic Regression model results gave an accuracy of 58.8% accuracy
+
+* DECISTION TREE MODEL
+Decision Tree Results: Decision Tree Model produced an accuracy of 59.3% (with 10 features selected giving best results)¶ The output of the Decision Tree model was very interesting because it consistently showed the DIVISION the athlete ran in to be the most important decision factor for whether the athlete would continue to run in college.
+The Decision Tree Model first splits the decision based on the DIVISION the athlete ran in at the State Championships and then their OVERALL TIME, and then the next important features are the High School Year and the SCHOOL THEY WENT TO
+
+* RANDOM FOREST MODEL with GridSearch algorithm
+Random Forest Results: Random Forest initially gives a 59.3% accuracy - about the same 3,4, or 10 features are selected.
+However, when the gridsearch was applied to find the best hyperparameters for the model, the accuracy increased to 84.4% using 10 estimators and a maximum decision tree depth of 3.
+
+**CONCLUSIONS:DETERMINING WHICH TOP RUNNERS WILL COMPETE COLLEGIATELY** 
+This project analyzed data from all the top cross country high school boy runners in the state of California for 2016 (top 30 across all 5 divisions) in order to understand the likelihood that these top runners would continue to run in college in the United States. Part of the motivation for this project was to understand what the main predictors for success in developing high school runners through to college and on to potentially professional levels.  Is it the coaches at particular high schools making the difference for the kids continuing in the sport or is it other factors such as socio-economic location factors or the size of the high school (division by divsion)? 
+
+For the final Capstone Project, the data collected was increased to cover all 2016 top runners from California (this is a first step and continuing this project will involved collecting additional years of high school data).  Of the three Machine Learning algorithms deployed the Random Forest performed the best so those results are used for this conclusion. 
+
+
+**CONCLUSIONS:**
+The following are the key take-aways from Phase 1 of this analysis project:
+-- It appears that the majority of top California distance boy runners continue on to compete in college each year or about 3/4ths of the runners. It seems that the athlete's school size (division) and cross country/track program plays a very large role in whether the athlete will continue on into college. Other factors include the particular school the athlete is from and actually the religion of the athlete as many Christian schools offer running scholarships or programs. How fast the athlete runs in high school only matters up to a point. Several who ran incredibly fast in high school go on to run well in college while others don't. And several that ran pretty well in high school go on to run extremely well in college, surpassing those that beat them in high school.
+**-- All of these initial modeling results and findings lead me to believe that it is actually the PROGRAM that makes the ATHLETE as opposed to the ATHLETE that makes the PROGRAM. By PROGRAM I mean not just the coach but also the SIZE of the team, the LOCATION of the school, the ECONOMIC wealth of the program, the SUPPORT given the athlete (in terms of adult support/nutrition/team culture/etc), and the COMMITMENT to the team by the ATHLETE.**
+
+
 
 **NEXT STEPS:** 
 * -- expand data beyond 2016 runners only - this is incredibly manual and time consuming to collate the data together 
